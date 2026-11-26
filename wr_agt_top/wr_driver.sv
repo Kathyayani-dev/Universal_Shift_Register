@@ -1,6 +1,6 @@
 # code for write driver class
 ...
-  lass wr_driver extends uvm_driver#(wr_xtn);
+  class wr_driver extends uvm_driver#(wr_xtn);
         `uvm_component_utils(wr_driver)
 
         function new(string name="wr_driver",uvm_component, parent);
